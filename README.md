@@ -1,3 +1,4 @@
+#一个自定义的具有倒计时效果的Button
 <br><com.softsnow.countdowntimerbutton.view.CountDownTimerButton
         <br>android:layout_width="200dp"
         <br>android:layout_height="60dp" 
