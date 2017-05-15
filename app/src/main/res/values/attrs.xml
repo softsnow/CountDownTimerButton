@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="interval" format="integer" />
+    <attr name="duration" format="integer" />
+
+    <declare-styleable name="CountDownTimerButton">
+        <attr name="interval"  />
+        <attr name="duration"  />
+    </declare-styleable>
+</resources>
