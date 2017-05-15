@@ -1,5 +1,5 @@
-<br><com.softsnow.countdowntimerbutton.view.CountDownTimerButton\<br> 
-        <br>android:layout_width="200dp"\<br> 
+<br><com.softsnow.countdowntimerbutton.view.CountDownTimerButton\ 
+        <br>android:layout_width="200dp"\
         <br>android:layout_height="60dp"\<br> 
         <br>android:layout_gravity="center"\<br> 
         <br>android:id="@+id/button"\<br> 
