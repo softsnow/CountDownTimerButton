@@ -9,13 +9,13 @@
         <br>
  <br>final CountDownTimerButton button= (CountDownTimerButton) findViewById(R.id.button); 
        <br> button.setOnTimering(new CountDownTimerButton.ITimeringListener() {
-           <br> @Override\<br> 
+           <br> @Override
            <br> public void onTimering(int presentTimer) {
                <br> button.setText(presentTimer/1000+"正在倒计时");
                 <br>//倒计时过程中执行的方法
            <br> }
 	    <br>
-            <br>@Override\<br> 
+            <br>@Override 
             <br>public void afterTimer() { 
                 <br>button.setText("倒计时结束");
                  <br>//倒计时结束执行的方法
