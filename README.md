@@ -1,24 +1,27 @@
-#一个自定义的具有倒计时效果的Button
-<br><com.softsnow.countdowntimerbutton.view.CountDownTimerButton
-        <br>android:layout_width="200dp"
-        <br>android:layout_height="60dp" 
-        <br>android:layout_gravity="center"
-        <br>android:id="@+id/button" 
-        <br>app:interval="1000"//倒计时时间间隔
-        <br> app:duration="6000"//总倒计时时间 
-        <br>/>
-        <br>
- <br>final CountDownTimerButton button= (CountDownTimerButton) findViewById(R.id.button); 
-       <br> button.setOnTimering(new CountDownTimerButton.ITimeringListener() {
-           <br> @Override
-           <br> public void onTimering(int presentTimer) {
-               <br> button.setText(presentTimer/1000+"正在倒计时");
-                <br>//倒计时过程中执行的方法
-           <br> }
-	    <br>
-            <br>@Override 
-            <br>public void afterTimer() { 
+# 一个自定义的具有倒计时效果的Button
+```
+<com.softsnow.countdowntimerbutton.view.CountDownTimerButton
+        android:layout_width="200dp"
+        android:layout_height="60dp" 
+        android:layout_gravity="center"
+        android:id="@+id/button" 
+        app:interval="1000"//倒计时时间间隔
+        app:duration="6000"//总倒计时时间 
+        />
+    
+ final CountDownTimerButton button= (CountDownTimerButton) findViewById(R.id.button); 
+ 
+      button.setOnTimering(new CountDownTimerButton.ITimeringListener() {
+           @Override
+           public void onTimering(int presentTimer) {
+               button.setText(presentTimer/1000+"正在倒计时");
+                //倒计时过程中执行的方法
+           }
+	    
+            @Override 
+            public void afterTimer() { 
                 <br>button.setText("倒计时结束");
                  <br>//倒计时结束执行的方法
-            <br>}
-       <br> });
+            }
+       });
+```
