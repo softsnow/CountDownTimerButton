@@ -20,8 +20,8 @@
 	    
             @Override 
             public void afterTimer() { 
-                <br>button.setText("倒计时结束");
-                 <br>//倒计时结束执行的方法
+                button.setText("倒计时结束");
+                //倒计时结束执行的方法
             }
        });
 ```
